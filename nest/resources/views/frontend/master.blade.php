@@ -1,62 +1,44 @@
 ﻿<!-- Header -->
 @include('frontend.layouts.header')
+<!-- Modal -->
 
-        <!-- Modal -->
+        <!-- Quick view -->
     @include('frontend.layouts.quickview')
- 
+
     <!-- Header  -->
     <header class="header-area header-style-1 header-height-2">
         <div class="mobile-promotion">
             <span>Grand opening, <strong>up to 15%</strong> off all items. Only <strong>3 days</strong> left</span>
         </div>
-
-        <!-- Top Header -->
-        @include('frontend.layouts.header-top')
-
-        <!-- Middle Header -->
-        @include('frontend.layouts.header-mid')
-
-        <!-- Bottom Header -->
-        @include('frontend.layouts.header-btm')
+            <!-- Nav Top -->
+        @include('frontend.layouts.nav-top')
+        
+            <!-- Nav Mid -->
+        @include('frontend.layouts.nav-mid')
+        
+            <!-- Nav Bottom -->
+        @include('frontend.layouts.nav-bottom')
         
     </header>
     
     <!-- End Header  -->
     
-    <!-- Mobile Header -->
-    @include('frontend.layouts.header-mob')
+        <!-- Nav Mob -->
+    @include('frontend.layouts.nav-mob')
 
     <!--End header-->
-
-    <main class="main">\
-
-
+        
+        <!-- Main Content -->
         @yield('main-content')
 
-        
-    </main>
+        <!-- Footer -->
+    @include('frontend.layouts.footer')
 
-    <footer class="main">
-
-        <!-- News Letter -->
-    @include('frontend.layouts.footer-news')
-
-        <!-- Featured -->
-    @include('frontend.layouts.footer-feature')
-
-        <!-- Footer Mid -->
-    @include('frontend.layouts.footer-mid')
-
-        <!-- Copyright -->
-    @include('frontend.layouts.footer-copy')
-
-    </footer>
-
-        <!-- Preloader -->
+    <!-- Preloader Start -->
     @include('frontend.layouts.preloader')
-
-        <!-- JS -->
-    @include('frontend.layouts.script')
+    
+    <!-- JS -->
+    @include('frontend.layouts.js')
 
 </body>
 

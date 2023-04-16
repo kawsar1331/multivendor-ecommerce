@@ -24,7 +24,7 @@
                     <ul class="mobile-menu font-heading">
                         <li class="menu-item-has-children">
                             <a href="index.html">Home</a>
-
+                                
                         </li>
                         <li class="menu-item-has-children">
                             <a href="shop-grid-right.html">shop</a>
@@ -61,7 +61,7 @@
                                 </li>
                             </ul>
                         </li>
-
+                        
                         <li class="menu-item-has-children">
                             <a href="#">Mega menu</a>
                             <ul class="dropdown">
@@ -153,16 +153,11 @@
             </div>
             <div class="mobile-social-icon mb-50">
                 <h6 class="mb-15">Follow Us</h6>
-                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-facebook-white.svg"
-                        alt="" /></a>
-                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-twitter-white.svg"
-                        alt="" /></a>
-                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-instagram-white.svg"
-                        alt="" /></a>
-                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-pinterest-white.svg"
-                        alt="" /></a>
-                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-youtube-white.svg"
-                        alt="" /></a>
+                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
+                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
+                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
+                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
+                <a href="#"><img src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
             </div>
             <div class="site-copyright">Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.</div>
         </div>

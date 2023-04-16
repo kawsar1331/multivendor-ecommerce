@@ -2,7 +2,7 @@
     <div class="container">
         <div class="header-wrap">
             <div class="logo logo-width-1">
-                <a href="index.html"><img src="{{asset('frontend')}}/assets/imgs/theme/logo.svg" alt="logo" /></a>
+                <a href="{{Route('index')}}"><img src="{{asset('frontend')}}/assets/imgs/theme/logo.svg" alt="logo" /></a>
             </div>
             <div class="header-right">
                 <div class="search-style-2">
@@ -45,11 +45,10 @@
                                 </select>
                             </form>
                         </div>
-
+                        
                         <div class="header-action-icon-2">
                             <a href="shop-wishlist.html">
-                                <img class="svgInject" alt="Nest"
-                                    src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-heart.svg" />
+                                <img class="svgInject" alt="Nest" src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-heart.svg" />
                                 <span class="pro-count blue">6</span>
                             </a>
                             <a href="shop-wishlist.html"><span class="lable">Wishlist</span></a>
@@ -64,8 +63,7 @@
                                 <ul>
                                     <li>
                                         <div class="shopping-cart-img">
-                                            <a href="shop-product-right.html"><img alt="Nest"
-                                                    src="{{asset('frontend')}}/assets/imgs/shop/thumbnail-3.jpg" /></a>
+                                            <a href="shop-product-right.html"><img alt="Nest" src="{{asset('frontend')}}/assets/imgs/shop/thumbnail-3.jpg" /></a>
                                         </div>
                                         <div class="shopping-cart-title">
                                             <h4><a href="shop-product-right.html">Daisy Casual Bag</a></h4>
@@ -77,8 +75,7 @@
                                     </li>
                                     <li>
                                         <div class="shopping-cart-img">
-                                            <a href="shop-product-right.html"><img alt="Nest"
-                                                    src="{{asset('frontend')}}/assets/imgs/shop/thumbnail-2.jpg" /></a>
+                                            <a href="shop-product-right.html"><img alt="Nest" src="{{asset('frontend')}}/assets/imgs/shop/thumbnail-2.jpg" /></a>
                                         </div>
                                         <div class="shopping-cart-title">
                                             <h4><a href="shop-product-right.html">Corduroy Shirts</a></h4>
@@ -102,8 +99,7 @@
                         </div>
                         <div class="header-action-icon-2">
                             <a href="page-account.html">
-                                <img class="svgInject" alt="Nest"
-                                    src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-user.svg" />
+                                <img class="svgInject" alt="Nest" src="{{asset('frontend')}}/assets/imgs/theme/icons/icon-user.svg" />
                             </a>
                             <a href="page-account.html"><span class="lable ml-0">Account</span></a>
                             <div class="cart-dropdown-wrap cart-dropdown-hm2 account-dropdown">
@@ -112,8 +108,7 @@
                                         <a href="page-account.html"><i class="fi fi-rs-user mr-10"></i>My Account</a>
                                     </li>
                                     <li>
-                                        <a href="page-account.html"><i class="fi fi-rs-location-alt mr-10"></i>Order
-                                            Tracking</a>
+                                        <a href="page-account.html"><i class="fi fi-rs-location-alt mr-10"></i>Order Tracking</a>
                                     </li>
                                     <li>
                                         <a href="page-account.html"><i class="fi fi-rs-label mr-10"></i>My Voucher</a>
@@ -122,8 +117,7 @@
                                         <a href="shop-wishlist.html"><i class="fi fi-rs-heart mr-10"></i>My Wishlist</a>
                                     </li>
                                     <li>
-                                        <a href="page-account.html"><i
-                                                class="fi fi-rs-settings-sliders mr-10"></i>Setting</a>
+                                        <a href="page-account.html"><i class="fi fi-rs-settings-sliders mr-10"></i>Setting</a>
                                     </li>
                                     <li>
                                         <a href="page-login.html"><i class="fi fi-rs-sign-out mr-10"></i>Sign out</a>
